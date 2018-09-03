@@ -1,0 +1,145 @@
+/* PRivate File Attachments Section */
+.wpqpa-clear{ clear: both; }
+.wpqpa-file-upload{
+    background: #428bca !important;
+}
+.wpqpa-files-create{
+
+}
+
+.wpqpa-files-add{
+    padding: 10px;
+}
+
+.wpqpa-files-add-btn{
+        padding: 10px;
+    background: #eee;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #cfcfcf;
+}
+
+.wpqpa-files-add-btn:hover{
+    cursor: pointer;
+}
+
+.wpqpa-files-add-form{
+    padding: 10px 20px;
+    background: #f5f5f5;
+    margin: 10px;
+    border: 1px solid #cfcfcf;
+}
+
+.wpqpa-files-add-form-row{
+    margin: 5px 0;
+}
+
+.wpqpa-files-add-form-label,.wpqpa-files-list-label{
+    float: left;
+    width: 30%;
+}
+
+.wpqpa-files-add-form-field,.wpqpa-files-list-field{
+    float: left;
+    width: 60%;
+}
+
+.wpqpa-files-add-form-field input[type='text'],
+.wpqpa-files-add-form-field textarea{
+    width: 95%;
+}
+
+.wppcp-message-info-error p{
+    margin: 0 !important;
+    padding: 0 10px !important;
+}
+
+.wpqpa-files-list{
+    padding: 10px;
+}
+
+.wpqpa-file-item{
+
+    background: #f5f5f5;
+    margin: 10px 0;
+}
+
+.wpqpa-file-item-delete,.wpqpa-file-item-download,.wpqpa-file-item-view,
+.wpqpa-admin-file-item-delete,
+.wpqpa-admin-file-item-edit{
+    float: right;
+    padding: 10px;
+    background: #428bca;
+    color: #fff;
+    margin-right: 2px;
+}
+
+.wpqpa-file-item-view,
+.wpqpa-admin-file-item-delete,
+.wpqpa-admin-file-item-edit{
+    cursor: pointer;
+}
+
+.wpqpa-file-item-download a{
+    color: #FFF;
+}
+
+.wpqpa-file-item-name{
+    float: left;
+    padding: 10px;
+}
+
+.wpqpa-file-item-data{
+    background: #fff;
+    border: 1px solid #cfcfcf;
+}
+
+.wpqpa-file-item-data-open{
+    display: block;
+}
+
+.wpqpa-file-item-data-closed{
+    display: none;
+}
+
+.wpqpa-file-item-data-row{
+    padding: 10px;
+}
+
+.wpqpa-files-list-msg{
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+.wpqpa-files-list-msg p{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.wpqpa-file-item-row{
+    border: 1px solid #cfcfcf;
+}
+
+.wpqpa-files-pagination,
+.wpqpa-admin-files-pagination{
+    padding: 10px 0;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    background: #eee;
+    border: 1px solid #cfcfcf;
+}
+
+.wpqpa-files-pagination:hover,
+.wpqpa-admin-files-pagination:hover{
+    cursor: pointer;
+}
+
+.wpqpa-files-list-desc{
+	padding:10px;
+	width:100%;
+	    box-sizing: border-box;
+	background:#fff;
+}
