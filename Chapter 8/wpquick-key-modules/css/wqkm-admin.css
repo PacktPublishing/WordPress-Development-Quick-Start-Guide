@@ -1,0 +1,22 @@
+.wqkm-clear{ clear: both; }
+
+.wqkm-message-info-error{
+    background: #ffdbdb none repeat scroll 0 0;
+    border: 1px solid #ffb4b4;
+    color: #ac2c2c;
+    display: block;
+    font-family: Open Sans,"Helvetica","Arial";
+    font-size: 12px;
+    margin: 10px 0;
+    padding: 5px;
+}
+.wqkm-message-info-success{
+    background: #d8f7c1;
+    border: 1px solid #a1d47b;
+    color: #527638;
+    display: block;
+    font-family: Open Sans,"Helvetica","Arial";
+    font-size: 12px;
+    margin: 10px 0;
+    padding: 5px;
+}
