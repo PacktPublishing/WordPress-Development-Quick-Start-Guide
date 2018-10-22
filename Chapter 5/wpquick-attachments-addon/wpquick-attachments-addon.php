@@ -26,7 +26,7 @@ function wpqaa_post_attachment_list_item( $display, $file_data ){
   $file_dir =  $upload_dir['basedir'] . $file_data->file_path; 
   $file_mime_type = mime_content_type( $file_dir ); 
   if( $file_mime_type == 'application/pdf' ){ 
-	if( !is_user_logged_in() || ( is_user_logged_in() && current_user_can('subscriber') ){
+	if( !is_user_logged_in() || ( is_user_logged_in() && current_user_can('subscriber') ) ){
       $display = '';
     }
   }

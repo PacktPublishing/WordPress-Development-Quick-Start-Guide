@@ -205,17 +205,18 @@ function wpqpa_process_file_upload( ) {
             $upload_dir =  false;
 
           if ( $upload_dir ) { 
-            $target_path = $upload_dir['basedir'];
+			$folder_path = "/wpqpa/";
+            $target_path = $upload_dir['basedir'] . $folder_path;
 
             if ( ! is_dir( $target_path ) )
                 mkdir( $target_path, 0777 );
             
-            $folder_path = "/wpqpa/";
+            
             $base_name = sanitize_file_name( wp_basename( $name ) );
             $base_name = preg_replace('/\.(?=.*\.)/', '_', $base_name );
             
             $time_val = time();
-            $target_path = $target_path .  $time_val . '_' . $base_name;
+            $target_path = $target_path .   $time_val . '_' . $base_name;
             $nice_url = $upload_dir['baseurl'] . $folder_path;
             $relative_file_path = $folder_path. $time_val . '_' . $base_name;
             $nice_url = $nice_url . $time_val . '_' . $base_name;

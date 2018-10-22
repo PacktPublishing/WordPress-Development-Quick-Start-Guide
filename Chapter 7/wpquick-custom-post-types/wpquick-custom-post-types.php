@@ -14,7 +14,7 @@ if( !defined( 'ABSPATH' ) ) exit;
 
 register_activation_hook( __FILE__, 'wqcpt_activate' );
 function wqcpt_activate(){
-  wqraf_manage_property_routes();
+  wqcpt_manage_property_routes();
   flush_rewrite_rules();  
 }
 

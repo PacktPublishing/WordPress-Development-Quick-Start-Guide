@@ -1,4 +1,4 @@
-jQuery(document).ready( function() {
+jQuery(document).ready( function($) {
 	$('#wqwpf_product_file_upload').click(function(e){
 
       e.preventDefault();

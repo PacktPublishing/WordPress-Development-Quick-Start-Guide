@@ -14,7 +14,7 @@ function wpquick_restrict_content_display( $atts, $content ){
 		'role' => '',
 	), $atts );
 	
-	if( $sh_attr['role'] != '' && current_user_can( $sh_attr['role'] ) ){
+	if( $sh_attr['role'] != '' && ! current_user_can( $sh_attr['role'] ) ){
 		$content = __('You don\'t have permission to view this content','wqsa');
 	}
 	
