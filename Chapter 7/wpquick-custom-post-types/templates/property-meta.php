@@ -16,14 +16,6 @@
         </select></td>
     </tr>
     <tr>
-        <th><label><?php _e('Price','wqcpt'); ?></label></th>
-        <td><input class="widefat" name="wqcpt_pr_price" id="wqcpt_pr_price" type="text" value="<?php echo $wqcpt_pr_price; ?>" /></td>
-    </tr>
-    <tr>
-        <th><label><?php _e('Area','wqcpt'); ?></label></th>
-        <td><input class="widefat" name="wqcpt_pr_area" id="wqcpt_pr_area" type="text" value="<?php echo $wqcpt_pr_area; ?>" /></td>
-    </tr>
-    <tr>
         <th><label><?php _e('City','wqcpt'); ?></label></th>
         <td><input class="widefat" name="wqcpt_pr_city" id="wqcpt_pr_city" type="text" value="<?php echo $wqcpt_pr_city; ?>" /></td>
     </tr>  

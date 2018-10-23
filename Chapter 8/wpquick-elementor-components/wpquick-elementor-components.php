@@ -77,11 +77,11 @@ class WPQuick_EC{
 
     public function image_slider( $atts, $content ){
         $sh_attr = shortcode_atts( array(
-            'width' => '820',
+            'width' => '520',
             'height' => '320',
             'slider_images' => ''
         ), $atts );       
-
+		extract($sh_attr);
 
         $upload_dir = wp_upload_dir();
 

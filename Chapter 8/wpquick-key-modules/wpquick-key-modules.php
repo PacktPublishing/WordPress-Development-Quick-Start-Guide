@@ -24,8 +24,9 @@ class WPQuick_KM{
 
             self::$instance->includes();
             
-            add_action( 'admin_enqueue_scripts',array(self::$instance,'load_admin_scripts'),9);
+            
             add_action( 'wp_enqueue_scripts',array(self::$instance,'load_scripts'),9);
+			add_action( 'admin_enqueue_scripts',array(self::$instance,'load_admin_scripts'),9);
 
             self::$instance->template_loader = new WQKM_Template_Loader();
             self::$instance->ui_components  = new WQKM_UI_Components();
@@ -67,7 +68,7 @@ class WPQuick_KM{
 
         
         
-        wp_register_script( 'wqkm-admin', WQKM_PLUGIN_URL . 'js/wqkm-admin.js', array('jquery','wqkm-slider') );
+        wp_register_script( 'wqkm-admin', WQKM_PLUGIN_URL . 'js/wqkm-admin.js', array('jquery') );
         wp_enqueue_script( 'wqkm-admin' );
         
         $custom_js_strings = array(        

@@ -5,7 +5,8 @@ jQuery(document).ready(function($) {
     height        : WQKMFront.height,
     width         : WQKMFront.width,
     responsive    : true,
-    randomstart   : true
+    randomstart   : true,
+	showmarkers   : false,
   });
  
 });

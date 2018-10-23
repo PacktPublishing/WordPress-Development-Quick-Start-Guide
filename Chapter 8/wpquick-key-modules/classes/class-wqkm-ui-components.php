@@ -3,8 +3,7 @@
 class WQKM_UI_Components {
     
   public function __construct(){
-    add_menu_page( __('UI Component Settings', 'wqkm' ), __('UI Component Settings', 'wqkm' ),
-          'manage_options','wqkm-settings', array( &$this,'ui_settings' ) ); 
+	add_action('admin_menu', array( $this , 'add_settings_page') );   
 
     add_action( 'wp_ajax_wqkm_save_slider_images', array( $this, 'save_slider_images') );
     add_shortcode( 'wqkm_product_slider', array( $this, 'product_slider') );    
@@ -14,6 +13,11 @@ class WQKM_UI_Components {
     add_action( 'add_meta_boxes', array( $this, 'add_accordion_meta_boxes' ) );
     add_action( 'save_post', array( $this, 'save_accordion_meta_data' ) );
     add_shortcode( 'wqkm_accordion', array( $this, 'display_accordion') );  
+  }
+  
+  public function add_settings_page(){
+	add_menu_page( __('UI Component Settings', 'wqkm' ), __('UI Component Settings', 'wqkm' ),
+          'manage_options','wqkm-settings', array( &$this,'ui_settings' ) ); 
   }
 
   public function ui_settings(){
@@ -127,7 +131,7 @@ class WQKM_UI_Components {
 
   public function product_slider( $atts, $content ){
       $sh_attr = shortcode_atts( array(
-          'width' => '820',
+          'width' => '520',
           'height' => '320',
       ), $atts );
 

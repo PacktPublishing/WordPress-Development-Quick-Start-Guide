@@ -18,8 +18,8 @@
             <th><label><?php _e('Type','wqcpt'); ?>*</label></th>
             <td><select class="widefat" name="wqcpt_prfr_type" id="wqcpt_prfr_type">
                 <option value="0" ><?php _e('Please Select','wqcpt'); ?></option>
-                <option value="house" ><?php _e('Sale','wqcpt'); ?></option> 
-                <option value="office" ><?php _e('Rent','wqcpt'); ?></option>               
+                <option value="house" ><?php _e('House','wqcpt'); ?></option> 
+                <option value="office" ><?php _e('Office','wqcpt'); ?></option>               
             </select></td>
         </tr>    
         <tr>

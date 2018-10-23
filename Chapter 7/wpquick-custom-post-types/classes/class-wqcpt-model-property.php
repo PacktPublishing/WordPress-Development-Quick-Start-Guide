@@ -121,7 +121,7 @@ class WQCPT_Model_Property {
         global $post,$wqcpt;
 
         // Verify the nonce value for secure form submission
-        if ( !wp_verify_nonce($_POST['property_nonce'], 'wqcpt-property-meta' ) ) {
+        if ( isset($_POST['property_nonce']) && !wp_verify_nonce($_POST['property_nonce'], 'wqcpt-property-meta' ) ) {
              return $post_id;
         }
 
@@ -130,7 +130,7 @@ class WQCPT_Model_Property {
             return $post_id;
         }    
 
-        if ( $this->post_type == $_POST['post_type'] && current_user_can( 'edit_post', $post->ID ) ) {
+        if ( isset($_POST['post_type']) && $this->post_type == $_POST['post_type'] && current_user_can( 'edit_post', $post->ID ) ) {
             $wqcpt_pr_type  = isset( $_POST['wqcpt_pr_type'] ) ? sanitize_text_field( trim($_POST['wqcpt_pr_type']) ) : '';
             $wqcpt_pr_city  = isset( $_POST['wqcpt_pr_city'] ) ? sanitize_text_field( trim($_POST['wqcpt_pr_city']) ) : '';
             

@@ -4,7 +4,8 @@ jQuery(document).ready(function($) {
     height        : $(this).attr('data-height'),
     width         : $(this).attr('data-width'),
     responsive    : true,
-    randomstart   : true
+    randomstart   : true,
+	showmarkers   : false,
   });
 
  
