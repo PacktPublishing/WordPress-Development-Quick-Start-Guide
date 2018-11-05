@@ -60,8 +60,8 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 is a freelance web developer, writer, and open source enthusiast. He has over 9 years of experience in developing WordPress applications and plugins. He develops premium WordPress plugins for individual clients and the CodeCanyon marketplace. User Profiles Made Easy and WP Private Content Pro are the most popular plugins developed by him. Rakhitha is the creator of WPExpertDeveloper, where he shares his latest WordPress plugins. Building Impressive Presentations with impress.js was his first book, which was published by Packt Publishing. He is also the author of the first three editions of WordPress Web Application Development. In his spare time, he likes to read books and spend time with his family.
 
 ## Other books by the authors
-* [Wordpress Web Application Development - Third Edition](https://www.packtpub.com/networking-and-servers/mastering-linux-network-administration?utm_source=github&utm_medium=repository&utm_campaign=9781784399597)
-* [WordPress Web Application Development - Second Edition](https://www.packtpub.com/networking-and-servers/linux-mint-essentials?utm_source=github&utm_medium=repository&utm_campaign=9781782168157)
+* [Wordpress Web Application Development - Third Edition](https://www.packtpub.com/application-development/wordpress-web-application-development-third-edition?utm_source=github&utm_medium=repository&utm_campaign=9781787126800)
+* [WordPress Web Application Development - Second Edition](https://www.packtpub.com/application-development/wordpress-web-application-development-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781782174394)
 
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
